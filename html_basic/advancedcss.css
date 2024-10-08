@@ -1,0 +1,267 @@
+/* Global Styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif; /* Change to your selected font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #YOUR_HEADER_COLOR; /* Replace with actual color */
+    padding: 20px; /* Adjust as per Figma */
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Center items vertically */
+}
+
+header img {
+    width: 100px; /* Adjust based on Figma */
+    height: auto; /* Keeps aspect ratio */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Horizontal layout */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #YOUR_LINK_COLOR; /* Replace with actual color */
+    font-weight: bold; /* Adjust weight if needed */
+}
+
+/* First Section Styles */
+main {
+    padding: 40px; /* Adjust padding based on Figma */
+}
+
+section#section1 {
+    background-color: #YOUR_SECTION_BACKGROUND_COLOR; /* Replace with actual color */
+    padding: 20px; /* Adjust as per Figma */
+    border-radius: 10px; /* Rounded corners if applicable */
+}
+
+section#section1 h1 {
+    font-size: 2em; /* Adjust size based on Figma */
+    color: #YOUR_HEADING_COLOR; /* Replace with actual color */
+}
+
+section#section1 p {
+    font-size: 1em; /* Adjust size based on Figma */
+    color: #YOUR_TEXT_COLOR; /* Replace with actual color */
+    line-height: 1.5; /* Makes text easier to read */
+/* Common Styles */
+.quote {
+    font-family: 'Source Sans Pro', sans-serif; /* Ensure consistent font */
+    color: #YOUR_QUOTE_TEXT_COLOR; /* Replace with actual color */
+    text-align: center; /* Center the text */
+    padding: 30px; /* Add padding for spacing */
+    margin: 20px 0; /* Space above and below */
+    border-left: 5px solid #YOUR_BORDER_COLOR; /* Optional: left border */
+    background-color: #YOUR_BACKGROUND_COLOR; /* Optional: background color */
+    font-style: italic; /* Italic for quote style */
+}
+
+/* Specific Styles for the Quote Text */
+.quote p {
+    font-size: 1.5em; /* Adjust based on Figma */
+    line-height: 1.6; /* Easier to read */
+}
+
+/* Author Styles (if applicable) */
+.quote .author {
+    font-weight: bold; /* Make the author name bold */
+    margin-top: 10px; /* Space between quote and author */
+    color: #YOUR_AUTHOR_COLOR; /* Replace with actual color */
+}/* Videos List Section */
+.videos-list {
+    background-color: #YOUR_BACKGROUND_COLOR; /* Replace with actual color */
+    padding: 20px; /* Adjust padding as needed */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between; /* Space between video items */
+}
+
+.video-item {
+    background-color: #YOUR_ITEM_BACKGROUND_COLOR; /* Replace with actual color */
+    border: 1px solid #YOUR_BORDER_COLOR; /* Optional: border around video items */
+    border-radius: 8px; /* Optional: rounded corners */
+    margin: 10px; /* Space between items */
+    width: calc(30% - 20px); /* Adjust width based on design */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.video-item:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.video-item img {
+    width: 100%; /* Make image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-top-left-radius: 8px; /* Match rounded corners */
+    border-top-right-radius: 8px; /* Match rounded corners */
+}
+
+.video-item h3 {
+    font-size: 1.2em; /* Adjust based on Figma */
+    color: #YOUR_TITLE_COLOR; /* Replace with actual color */
+    padding: 10px; /* Space around title */
+}
+
+.video-item p {
+    font-size: 0.9em; /* Adjust based on Figma */
+    color: #YOUR_TEXT_COLOR; /* Replace with actual color */
+    padding: 0 10px 10px; /* Space around text */
+}/* Membership Section */
+.membership {
+    background-color: #YOUR_BACKGROUND_COLOR; /* Replace with actual color */
+    padding: 40px; /* Adjust padding based on design */
+    text-align: center; /* Center text within the section */
+}
+
+.membership h2 {
+    font-size: 2em; /* Adjust size based on Figma */
+    color: #YOUR_HEADING_COLOR; /* Replace with actual color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.membership p {
+    font-size: 1em; /* Adjust size based on Figma */
+    color: #YOUR_TEXT_COLOR; /* Replace with actual color */
+    line-height: 1.6; /* Easier to read */
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.membership .membership-options {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center the membership options */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.membership .option {
+    background-color: #YOUR_OPTION_BACKGROUND_COLOR; /* Replace with actual color */
+    border: 1px solid #YOUR_BORDER_COLOR; /* Optional: border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside each option */
+    margin: 10px; /* Space between options */
+    width: 300px; /* Fixed width for each option */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.membership .option:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.membership .option h3 {
+    font-size: 1.5em; /* Adjust size based on Figma */
+    color: #YOUR_OPTION_TITLE_COLOR; /* Replace with actual color */
+}
+
+.membership .option p {
+    font-size: 0.9em; /* Adjust size based on Figma */
+    color: #YOUR_OPTION_TEXT_COLOR; /* Replace with actual color */
+    margin: 10px 0; /* Space above and below */
+}
+
+.membership .option button {
+    background-color: #YOUR_BUTTON_COLOR; /* Replace with actual color */
+    color: #FFFFFF; /* Text color for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Space inside button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.membership .option button:hover {
+    background-color: #YOUR_BUTTON_HOVER_COLOR; /* Replace with hover color */
+/* FAQ Section */
+.faq {
+    background-color: #YOUR_BACKGROUND_COLOR; /* Replace with actual color */
+    padding: 40px; /* Adjust padding based on design */
+    text-align: center; /* Center text within the section */
+}
+
+.faq h2 {
+    font-size: 2em; /* Adjust size based on Figma */
+    color: #YOUR_HEADING_COLOR; /* Replace with actual color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.faq-item {
+    background-color: #YOUR_ITEM_BACKGROUND_COLOR; /* Replace with actual color */
+    border: 1px solid #YOUR_BORDER_COLOR; /* Optional: border */
+    border-radius: 8px; /* Rounded corners */
+    margin: 15px 0; /* Space between items */
+    padding: 15px; /* Space inside each FAQ item */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.faq-item:hover {
+    background-color: #YOUR_HOVER_COLOR; /* Replace with hover color */
+}
+
+.faq-item h3 {
+    font-size: 1.5em; /* Adjust size based on Figma */
+    color: #YOUR_QUESTION_COLOR; /* Replace with actual color */
+    cursor: pointer; /* Change cursor to pointer for clickable questions */
+}
+
+.faq-item p {
+    font-size: 1em; /* Adjust size based on Figma */
+    color: #YOUR_ANSWER_COLOR; /* Replace with actual color */
+    display: none; /* Hide answers initially */
+    margin-top: 10px; /* Space above answer */
+}
+
+/* Optional: Show the answer on question click */
+.faq-item.active p {
+    display: block; /* Show answer when active */
+}/* Footer Section */
+.footer {
+    background-color: #YOUR_BACKGROUND_COLOR; /* Replace with actual color */
+    color: #YOUR_TEXT_COLOR; /* Replace with actual text color */
+    padding: 20px; /* Adjust padding based on design */
+    text-align: center; /* Center text in the footer */
+    font-size: 0.9em; /* Adjust font size */
+}
+
+.footer .footer-content {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column layout */
+    align-items: center; /* Center items */
+}
+
+.footer .footer-links {
+    margin: 15px 0; /* Space above and below links */
+}
+
+.footer .footer-links a {
+    color: #YOUR_LINK_COLOR; /* Replace with actual link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between links */
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer .social-icons {
+    margin-top: 10px; /* Space above social icons */
+}
+
+.footer .social-icons img {
+    width: 25px; /* Adjust size of social icons */
+    margin: 0 5px; /* Space between icons */
+}
+
+.footer .footer-bottom {
+    margin-top: 20px; /* Space above copyright notice */
+}

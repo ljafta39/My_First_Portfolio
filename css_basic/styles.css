@@ -1,0 +1,34 @@
+/* Make the body a flex container with column direction */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+  }
+  
+  /* Make main a flex container with row direction */
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Ensure it takes the remaining space */
+  }
+  
+  /* Style for article to take 2/3 of the width */
+  article {
+    flex: 2;
+    overflow-y: auto; /* Enable scrolling */
+  }
+  
+  /* Style for aside to take 1/3 of the width */
+  aside {
+    flex: 1;
+    overflow-y: auto; /* Enable scrolling */
+  }
+  
+  /* Style for header and footer */
+  header, footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
